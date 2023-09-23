@@ -17,7 +17,7 @@
                 height: 40em;
                 position: relative;
             }
-            
+
             .sun {
                 position: absolute;
                 top: 15em;
@@ -52,6 +52,13 @@
                 width: 8em;
                 height: 8em;
                 animation: orbit 2.7s linear infinite;
+            }
+
+            .earth::before,
+            .moon::before {
+                content: "";
+                position: absolute;
+                border-radius: 50%;
             }
         </style>
 
